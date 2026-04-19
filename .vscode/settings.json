@@ -1,0 +1,18 @@
+{
+  "liveServer.settings.port": 5502,
+  "workbench.tree.indent": 25,
+  "workbench.colorTheme": "Theme",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontSize": 22,
+  "editor.stickyScroll.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.preferences.useAliasesForRenames": false,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.useAliasesForRenames": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+}

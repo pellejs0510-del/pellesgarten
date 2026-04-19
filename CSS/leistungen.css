@@ -1,0 +1,123 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#service_section{
+ padding:80px 0;
+ background-color: var(--third-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:100px;
+ flex-wrap: wrap;
+}
+.service_container{
+ width: 750px;
+ max-width: 90%;
+}
+
+.services img {
+  height: 680px;
+  width: 850px;
+
+  max-width: 80vw;
+  max-height: 80vw;
+}
+.service_description{
+  text-align: start;
+  line-height: 175%;
+  font-size: 18pt;
+}
+
+@media (max-width: 500px) {
+  #services_section {
+    padding: 50px 0;
+  }
+  #services_section h1 {
+    text-align: center;
+    font-size: 12vw;
+  }
+}
+.services_overview h2 {
+  font-size: 40pt;
+}
+.services_overview p {
+  text-align: justify;
+  line-height: 175%;
+  font-size: 20pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  #services_overview {
+    padding: 50px 0;
+  }
+  #services_overview h2 {
+    text-align: center;
+    font-size: 12vw;
+  }
+}
+#service_overview {
+  padding: 70px 0;
+  background-color: var(--accent-color);
+}
+#services_overview h2 {
+  font-size: 50pt;
+  text-align: center;
+}
+.bieten{
+  font-size: 30pt;
+}
+.flex_container {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 350px;
+  max-width: calc(90%-40px);
+  background-color: var(--background-color);
+  border-radius: 100px;
+  padding: 60px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+card* {
+  text-align: center;
+}
+.card a {
+  background-color: var(--card-button-color);
+  width: min-content;
+  padding: 15px 40px;
+  border-radius: 50px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: var(-text-color);
+  border: 4px solid var(--darker-background-color);
+  transition: 150ms ease-in-out;
+}
+.card a:hover {
+  background-color: transparent;
+}
+a{
+  color:var(--text-color);
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18pt;
+}

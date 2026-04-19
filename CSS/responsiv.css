@@ -1,0 +1,201 @@
+/* Index */
+
+/* Responsivität für Tablets */
+@media (max-width: 1200px) {
+    .subheading {
+      font-size: 40pt;
+    }
+    .descriptionheading {
+      font-size: 16pt;
+    }
+  }
+
+  /* Responsivität für Mobilgeräte */
+  @media (max-width: 800px) {
+    .subheading {
+      font-size: 30pt;
+    }
+    .descriptionheading {
+      font-size: 14pt;
+    }
+  }
+ /* Responsive Anpassungen */
+ .subheading {
+    margin-top: 25px;
+    color: var(--main-brand-color);
+    font-size: 50pt;
+    text-align: justify;
+    width: 90%;
+  }
+
+  .descriptionheading {
+    margin-top: 15px;
+    color: var(--secondary-text-color);
+    font-size: 18pt;
+    line-height: 1.6;
+    text-align: justify;
+    width: 90%;
+  }
+
+  @media (max-width: 800px) {
+    .subheading {
+      font-size: 30pt;
+      text-align: center;
+    }
+
+    .descriptionheading {
+      font-size: 14pt;
+      text-align: center;
+    }
+
+    .menu {
+      display: none;
+      flex-direction: column;
+      background-color: var(--background-color);
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      width: 200px;
+      border-radius: 5px;
+      padding: 10px;
+      z-index: 1000;
+    }
+    .menu.active {
+      display: flex;
+    }
+    .menu-toggle {
+      display: block;
+      cursor: pointer;
+    }
+    .menu li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+
+  /* Diashow */
+  @media (max-width: 768px) {
+    .slideshow-container {
+      height: 300px;
+      width: 100vw;
+    }
+  }
+
+  /*Shop*/
+
+  /* =========================
+   TABLET (bis 1024px)
+========================= */
+@media (max-width: 1024px) {
+
+  .shop {
+    padding: 20px;
+  }
+
+  .shop_item {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .bild {
+    height: 120px;
+  }
+
+  .shop input,
+  .shop select,
+  .shop textarea {
+    width: 95%;
+    font-size: 16px; /* wichtig für iOS Zoom */
+  }
+
+  .header_text h1 {
+    font-size: 2rem;
+  }
+
+  .header_text .subheading {
+    font-size: 1.2rem;
+  }
+
+  .header_text .descriptionheading {
+    font-size: 1rem;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+
+/* =========================
+   HANDY (bis 600px)
+========================= */
+@media (max-width: 600px) {
+
+  .shop {
+    padding: 15px;
+  }
+
+  .shop_item {
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .bild {
+    height: 100px;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .shop_item h3 {
+    font-size: 1.2rem;
+  }
+
+  .shop input,
+  .shop select,
+  .shop textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .header_text {
+    padding: 10px;
+  }
+
+  .header_text h1 {
+    font-size: 1.6rem;
+  }
+
+  .header_text .subheading {
+    font-size: 1rem;
+  }
+
+  .header_text .descriptionheading {
+    font-size: 0.9rem;
+  }
+
+  /* NAVBAR untereinander */
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 5px 0;
+  }
+
+  /* Footer kompakter */
+  .grid_container {
+    grid-template-columns: 1fr;
+  }
+}

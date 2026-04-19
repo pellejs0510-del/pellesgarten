@@ -1,0 +1,163 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#pflege_section{
+ padding:50px;
+ background-color: var(--third-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:100px;
+ flex-wrap: wrap;
+
+}
+.pflege_container{
+ width: 1250px;
+ max-width: 90%;
+
+
+}
+
+.pflege_pic img {
+  height: 550px;
+  width: 550px;
+
+  max-width: 80vw;
+  max-height: 80vw;
+  border-radius: 15px;
+}
+.pflege_description{
+  text-align: start;
+  line-height: 175%;
+  font-size: 25pt;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  #pflege_section {
+    padding: 50px 0;
+  }
+  #pflege_section h1 {
+    text-align: center;
+    font-size: 12vw;
+  }
+}
+.flex_container{
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-start;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+.card{
+width: 550px;
+max-width: calc(90%-10px);
+background-color: var(--light-secondary-color);
+border-radius: 15px;
+padding: 30px 10px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:20px;
+}
+card*{
+ text-align: start;
+}
+.card li{
+  font-size: 20pt;
+  }
+#pflege_section{
+  padding: 50px;
+}
+.pflege_container{
+  width: 1750px;
+  max-width: 90%;
+}
+.pflege_description{
+  font-size: 20pt;
+  line-height: 205%;
+}
+
+h3{
+  text-decoration: underline;
+  font-size: 35pt;
+}
+#scarify_section{
+  padding:50px;
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  flex-wrap: wrap;
+ }
+ .scarify_container{
+  width: 1850px;
+  max-width: 90%;
+
+ }
+ .scarify_description{
+  line-height: 175%;
+  font-size: 20pt;
+}
+#aerate_section{
+  padding:50px;
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  flex-wrap: wrap;
+ }
+ .aerate_container{
+  width: 1850px;
+  max-width: 90%;
+
+ }
+ .aerate_description{
+  line-height: 175%;
+  font-size: 20pt;
+}
+#tree_care_section{
+  padding:50px;
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  flex-wrap: wrap;
+ }
+ .tree_care_container{
+  width: 1850px;
+  max-width: 90%;
+
+ }
+ .tree_care_description{
+  line-height: 175%;
+  font-size: 20pt;
+}
+#fruit_section{
+  padding:50px;
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  flex-wrap: wrap;
+ }
+ .fruit_container{
+  width: 1850px;
+  max-width: 90%;
+
+ }
+ .fruit_description{
+  line-height: 175%;
+  font-size: 20pt;
+}
